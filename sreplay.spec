@@ -1,9 +1,9 @@
 Summary:	Tool that performs system call replay
 Name:		sreplay
-Version:	0.2.4
+Version:	0.2.5
 Release:	%mkrel 1
 License:	LGPL
-Group:		Development/kernel
+Group:		Development/Kernel
 Url:		http://weather.ou.edu/~apw/projects/sreplay/
 Source0:	http://weather.ou.edu/~apw/projects/sreplay/%{name}-%{version}.tar.bz2
 ExclusiveArch:	i586
