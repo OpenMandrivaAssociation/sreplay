@@ -1,6 +1,6 @@
 Summary:	Tool that performs system call replay
 Name:		sreplay
-Version:	0.2.6
+Version:	0.2.7
 Release:	%mkrel 1
 License:	LGPL
 Group:		Development/Kernel
@@ -36,5 +36,3 @@ install %{name} %{buildroot}/%{_bindir}
 %defattr(644,root,root,755)
 %doc README NEWS
 %attr(755,root,root) %{_bindir}/%{name}
-
-
