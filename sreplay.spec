@@ -1,6 +1,6 @@
 Summary:	Tool that performs system call replay
 Name:		sreplay
-Version:	0.2.7
+Version:	0.2.8
 Release:	%mkrel 1
 License:	LGPL
 Group:		Development/Kernel
