@@ -7,7 +7,6 @@ Group:		Development/Kernel
 Url:		http://weather.ou.edu/~apw/projects/sreplay/
 Source0:	http://weather.ou.edu/~apw/projects/sreplay/%{name}-%{version}.tar.bz2
 ExcludeArch:	x86_64
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Sreplay is a tool that performs system call replay of 
