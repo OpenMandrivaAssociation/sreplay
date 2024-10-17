@@ -4,7 +4,7 @@ Version:	0.2.9
 Release:	4
 License:	LGPL
 Group:		Development/Kernel
-Url:		http://weather.ou.edu/~apw/projects/sreplay/
+Url:		https://weather.ou.edu/~apw/projects/sreplay/
 Source0:	http://weather.ou.edu/~apw/projects/sreplay/%{name}-%{version}.tar.bz2
 ExcludeArch:	x86_64
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
