@@ -9,6 +9,11 @@ Source0:	http://weather.ou.edu/~apw/projects/sreplay/%{name}-%{version}.tar.bz2
 ExcludeArch:	x86_64
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Sreplay is a tool that performs system call replay of strace logs on UNIX-like
 operating systems. It is written in assembly and C. It supports simple
